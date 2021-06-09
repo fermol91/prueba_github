@@ -1,0 +1,91 @@
+header {
+
+}
+
+.menu {
+
+}
+
+#lista {
+
+}
+
+
+/* esto da formato a todas las a 
+que estan dentr de las li que 
+estan dentro de ul etc */
+
+/*cascada*/
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+/* otra forma de cascada*/
+
+#home a {
+    text-decoration: underline;
+    color: blue;
+    font-size: 40px;
+
+}
+/* fin seccion de header*/
+
+/*seccion de main de mi home*/
+
+#main h1{
+    font-size: 48px;
+}   
+
+#main .imagen {
+    width: 100%;
+}
+
+.paragraph {
+    /* la unidad em se utiliza 
+    para hacer referencia al tamaño
+     actual de la fuente que se
+     establece en el navegador,
+     que haitualmente es un valor 
+     aprox  16 px*/
+     font-size: 1em     
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 3em;
+}
+
+
+
+html {
+    font-size: 20px;  /* tamaño base */
+
+
+}
+
+.paragraph-2 {
+    /*rem nos permite establecer un tamaño personalizado*/
+
+    font-size: 2rem;
+
+    
+}
+
+.container {
+    width: 100%;
+}
+
+h5 { 
+    /*relleno*/
+    /* padding; 60px; */
+    /* paddin-top: 60px;
+    paddin-right: 10px;
+    padding-bottom: 6px
+    padding-left: 22px*/
+
+    /* aplica el padding en sentido 
+
+    padding: 160px;
+    pa
+}
